@@ -6,7 +6,7 @@ status = st.radio("Select your height format:",('cms', 'meters', 'feet'))
 
 
 try:
-    if status == 'meters':
+    if status == 'cms':
         height = st.number_input('Enter your height in cm')
         bmi = weight/((height)**2)
 
